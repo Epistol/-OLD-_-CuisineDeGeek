@@ -2,8 +2,7 @@
 
 <p align="center">CDG</p>
 
-[![Build Status](https://travis-ci.org/Epistol/CuisineDeGeek.svg?branch=master)](https://travis-ci.org/Epistol/CuisineDeGeek) [![codecov](https://codecov.io/gh/Epistol/CuisineDeGeek/branch/master/graph/badge.svg)](https://codecov.io/gh/Epistol/CuisineDeGeek)
-
+[![Build Status](https://travis-ci.org/Epistol/CuisineDeGeek.svg?branch=master)](https://travis-ci.org/Epistol/CuisineDeGeek)
 
 
 ## About CuisineDeGeek
