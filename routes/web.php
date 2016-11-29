@@ -24,4 +24,8 @@ Route::get('contact',
 Route::post('contact',
     ['as' => 'contact_store', 'uses' => 'ModulesController@store']);
 
+Route::get('recettes',
+    ['as' => 'recettes_index', 'uses' => 'RecetteController@index']);
+
+
 
