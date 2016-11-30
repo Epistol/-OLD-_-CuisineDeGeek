@@ -28,6 +28,14 @@ class ContactSend extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+
+        return $this->from('admin@cuisinedegeek.com')->view('modules.contact');
+
+        /* return $this->from('admin@cuisinedegeek.com')->view('modules.contact')->with([
+        'orderName' => $this->order->name,
+        'orderPrice' => $this->order->price,
+    ]); */
+
+
     }
 }

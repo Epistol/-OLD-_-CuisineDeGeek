@@ -22,11 +22,11 @@ mikaleb🐼live.com // admin🐼cuisinedegeek.com // contact🐼epistol.info
 
 -->
 
-<html ⚡ lang="fr-fr">
+<html lang="fr-fr">
 <head>
 
     <meta charset="utf-8">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- <script async src="https://cdn.ampproject.org/v0.js"></script> -->
     <link rel="canonical" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

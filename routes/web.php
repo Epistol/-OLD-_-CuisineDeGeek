@@ -20,7 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('contact',
-    ['as' => 'contact', 'uses' => 'ContactController@create']);
+    ['as' => 'contact', 'uses' => 'ContactController@index']);
 Route::post('contact',
     ['as' => 'contact_store', 'uses' => 'ContactController@store']);
 

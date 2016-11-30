@@ -2,7 +2,12 @@
 
 namespace CDG\Http\Controllers;
 
+use CDG\Mail\ContactSend;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use CDG\Http\Controllers\Controller;
+
+
 
 class ContactController extends Controller
 {
@@ -34,6 +39,8 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
+        Mail::to($request->user())->send(new ContactSend);
+
         return redirect()->route('contact')->with('message', 'Thanks for contacting us!');
     }
 
