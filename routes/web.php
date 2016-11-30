@@ -20,9 +20,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('contact',
-    ['as' => 'contact', 'uses' => 'ModulesController@create']);
+    ['as' => 'contact', 'uses' => 'ContactController@create']);
 Route::post('contact',
-    ['as' => 'contact_store', 'uses' => 'ModulesController@store']);
+    ['as' => 'contact_store', 'uses' => 'ContactController@store']);
 
 Route::get('recettes',
     ['as' => 'recettes_index', 'uses' => 'RecetteController@index']);
