@@ -40,15 +40,15 @@ mikaleb🐼live.com // admin🐼cuisinedegeek.com // contact🐼epistol.info
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+
     <script src="/semantic/dist/semantic.min.js"></script>
 
 
-
-    <script type="text/javascript" src="/js/cookie.js"></script>
+    <!-- <script type="text/javascript" src="js/cookie.js"></script> -->
     <script src='https://www.google.com/recaptcha/api.js' async></script>
-
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
 
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
@@ -88,18 +88,18 @@ mikaleb🐼live.com // admin🐼cuisinedegeek.com // contact🐼epistol.info
     <!-- Scripts -->
     <script src="/js/app.js"></script>
 
-    <script type="text/javascript">
-        window.smartlook||(function(d) {
-            var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-            var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-            c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
-        })(document);
-        smartlook('init', 'c21420a7e3cfabeff99d6221bbe9f5133ffa7576');
-    </script>
+    <!--  <script type="text/javascript">
+          window.smartlook||(function(d) {
+              var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+              var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+              c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+          })(document);
+          smartlook('init', 'c21420a7e3cfabeff99d6221bbe9f5133ffa7576');
+      </script> -->
 
-    <script src="/js/tableau.js"></script>
+      <script src="/js/tableau.js"></script>
 
 
 
-</body>
-</html>
+  </body>
+  </html>

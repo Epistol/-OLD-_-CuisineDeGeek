@@ -3,11 +3,9 @@
 namespace CDG\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Storage;
+use App\User;
 
-
-class RecetteController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,15 +14,7 @@ class RecetteController extends Controller
      */
     public function index()
     {
-        $collection = Collection::make([1, 2, 3]);
-        $exists = asset('img/c09.jpg');
-
-
-        $data = ['img' => $exists];
-
-
-
-        return view('recette.page', $data);
+        //
     }
 
     /**
@@ -56,7 +46,7 @@ class RecetteController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('user.profile', ['user' => User::findOrFail($id)]);
     }
 
     /**
