@@ -1,6 +1,5 @@
-application: cuisinedegeek-151614
 version: one
-runtime: php
+runtime: php55
 api_version: 1
 
 handlers:
