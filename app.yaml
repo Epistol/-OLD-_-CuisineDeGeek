@@ -1,15 +1,15 @@
-runtime: php55
+        runtime: php55
 
-handlers:
+        handlers:
 
-- url: /favicon\.ico
-  static_files: public/favicon.ico
-  upload: public/favicon\.ico
+        - url: /favicon\.ico
+          static_files: public/favicon.ico
+          upload: public/favicon\.ico
 
-- url: /assets/(.*\.(htm$|html$|css$|js$|png$))
-  static_files: public/assets/\1
-  upload: public/assets/(.*\.(htm$|html$|css$|js$|png$))
-  application_readable: true
+        - url: /assets/(.*\.(htm$|html$|css$|js$|png$))
+          static_files: public/assets/\1
+          upload: public/assets/(.*\.(htm$|html$|css$|js$|png$))
+          application_readable: true
 
-- url: /.*
-  script: public/index.php
+        - url: /.*
+          script: public/index.php

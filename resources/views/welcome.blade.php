@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('page_title')Accueil @endsection
+
+
+
+
+
+
 @section('content')
 
         <div class="flex-center position-ref full-height">
@@ -14,18 +21,20 @@
                 </div>
             @endif
 
-            <div class="content">
+                <span class="cdg_intro">Cuisine De Geek</span>
+                <br />
+                <div class="headline">Bienvenue sur CDG !<br />
+                    Vous êtes sur un site de cuisine qui met à votre disposition des recettes tirés
+                    d\'univers différents : <br />films, séries, jeux, animes, mangas, etc ... </div>
+
+
+
+                <div class="content">
                 <div class="title m-b-md">
                     Laravel
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+
             </div>
         </div>
 
