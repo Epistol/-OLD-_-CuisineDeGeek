@@ -1,0 +1,1 @@
+<?php if(isset($varpage)) {echo ucfirst($varpage) . ' - CDG';} else {echo 'CDG';} ?>
